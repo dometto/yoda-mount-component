@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1
+Name=Connect to Yoda
+Comment=A shortcut to connect to your Yoda Data using WebDAV.
+Exec=/usr/local/bin/user_mount_webdav.sh /path/to/mount
+Icon=/usr/share/icons/Humanity/apps/32/access.svg
+Terminal=false
+Type=Application
+Categories=UU;Utility;Network;

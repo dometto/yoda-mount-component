@@ -13,8 +13,8 @@ fi
 
 USER=$(${WHOAMI})
 MOUNT_DIR=$1
-DRIVE_NAME=$2 || "WebDAV"
-DRIVE_URL=$3 || ""
+DRIVE_NAME="${2-WebDAV}"
+DRIVE_URL=$3
 
 if [[ -z $DISPLAY ]]; then
   echo "No display found. This script uses the GUI to prompt for WebDAV credentials. To mount $MOUNT_DIR from the command line, try simply using 'mount $MOUNT_DIR'."
